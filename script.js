@@ -4,11 +4,11 @@ var b = 0;
 var value = (a * a) - (2 * a * b) + (b * b);
 
 if (value > 0) {
-	alert("Bigger than zero");
+	console.log("Bigger than zero");
 }
 else if (value < 0) {
-	alert("Smaller than zero");
+	console.log("Smaller than zero");
 }
 else {
-	alert("Equals to zero");
+	console.log("Equals to zero");
 }
